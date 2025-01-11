@@ -1,4 +1,4 @@
-.profile-card {
+.profileCard {
   width: 350px;
   margin: 0 auto;
   padding: 20px;
@@ -7,7 +7,6 @@
   background-color: #ffffff;
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  font-family: "Arial", sans-serif;
 }
 
 .wrapper {
@@ -16,7 +15,7 @@
   align-items: center;
 }
 
-.profile-card img {
+.profileCard img {
   width: 120px;
   height: 120px;
   border-radius: 50%;
@@ -24,27 +23,27 @@
   border: 2px solid #e0e0e0;
 }
 
-.profile-card p {
+.profileCard p {
   margin: 5px 0;
 }
 
-.profile-card .name {
+.profileCard .name {
   font-size: 24px;
   font-weight: bold;
   color: #2a2a2a;
 }
 
-.profile-card .tag {
+.profileCard .tag {
   font-size: 16px;
   color: #8c8c8c;
 }
 
-.profile-card .location {
+.profileCard .location {
   font-size: 16px;
   color: #8c8c8c;
 }
 
-.profile-card ul {
+.profileCard ul {
   list-style: none;
   display: flex;
   justify-content: space-between;
@@ -53,27 +52,27 @@
   border-top: 1px solid #e0e0e0;
 }
 
-.profile-card ul li {
+.profileCard ul li {
   text-align: center;
   flex: 1;
   padding: 10px 0;
   border-right: 1px solid #e0e0e0;
 }
 
-.profile-card ul li:last-child {
+.profileCard ul li:last-child {
   border-right: none;
 }
 
-.profile-card ul li span {
+.profileCard ul li span {
   display: block;
 }
 
-.profile-card ul li span:first-child {
+.profileCard ul li span:first-child {
   font-size: 14px;
   color: #8c8c8c;
 }
 
-.profile-card ul li span:last-child {
+.profileCard ul li span:last-child {
   font-size: 18px;
   font-weight: bold;
   color: #2a2a2a;

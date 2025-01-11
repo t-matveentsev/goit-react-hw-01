@@ -5,14 +5,14 @@ const FriendList = ({ avatar, name, isOnline }) => {
   return (
     <li className={styles.item}>
       <img src={avatar} alt="" />
-      <p>{name}</p>
-      <p
-        className={clsx(
-          isOnline ? styles["green-accent"] : styles["red-accent"]
-        )}
-      >
-        {isOnline ? "Online" : "Offline"}
-      </p>
+      <ul>
+        <li>
+          <p className={styles.name}>{name}</p>
+          <p className={clsx(isOnline ? styles.greenAccent : styles.redAccent)}>
+            {isOnline ? "Online" : "Offline"}
+          </p>
+        </li>
+      </ul>
     </li>
   );
 };

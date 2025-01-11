@@ -8,7 +8,7 @@ const Profile = ({
   stats: { followers, views, likes },
 }) => {
   return (
-    <div className={styles["profile-card"]}>
+    <div className={styles.profileCard}>
       <div className={styles.wrapper}>
         <img src={avatar} alt="User avatar" />
         <p className={styles.name}>{username}</p>
