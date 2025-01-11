@@ -1,9 +1,6 @@
-.redAccent {
-  color: red;
-}
-
-.greenAccent {
-  color: green;
+.wrapper {
+  display: flex;
+  padding-top: 40px;
 }
 
 .item {
