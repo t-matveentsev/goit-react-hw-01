@@ -1,0 +1,30 @@
+.wrapper {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+
+  border-collapse: collapse;
+  margin-top: 40px;
+  font-size: 16px;
+  text-align: center;
+
+  & th {
+    background-color: #2a2a2a;
+    color: #fff;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+  }
+}
+
+.wrapper tbody tr:nth-child(even) {
+  background-color: #e6e6e6;
+}
+
+.wrapper tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+.wrapper td {
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+}
